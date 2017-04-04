@@ -1,2 +1,73 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+@import "fonts/trebuchet.css";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+#ticket {
+  top: 295px;
+  position: fixed;
+  left: 89px;
+  float: left;
+}
+
+header {
+  
+}
+#cabecalho h1{
+  font-family: "Ravie";
+  text-align: center;
+  font-size: 36px;
+  color: #e90c0c;
+}
+
+#cabecalho h2{
+  font-family: "Trebuchet MS";
+  font-size: 24px;
+  color: #333;
+  font-weight: normal;
+  text-align: right;
+
+}
+
+#cabecalho span {
+  color: #d027aa;
+}
+
+#lateral {
+  position: absolute;
+  top: 0;
+}
+
+#siri {
+  top: 17px;
+  position: absolute;
+}
+
+#peixe {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+}
+
+#cardapio {
+  border: 1px solid #aac0ae;
+  width: 646px;
+  box-sizing: border-box;
+}
